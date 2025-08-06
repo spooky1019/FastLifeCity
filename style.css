@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.logo {
+    width: 100px;
+}
+nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+.rule button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+    text-align: left;
+    margin-top: 5px;
+}
+.rule .content {
+    display: none;
+    padding: 10px;
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+.rule button:focus + .content {
+    display: block;
+}
